@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Korolkov Stanislav — AQA Fullstack Engineer</title>
+  <style>
+    /* Сброс стилей */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      color: #333;
+      line-height: 1.5;
+      padding: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    header h2 {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    .position {
+      font-style: italic;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    /* Блоки с информацией */
+    .info-block {
+      margin-bottom: 20px;
+    }
+    .info-block h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #333;
+      border-left: 4px solid #444;
+      padding-left: 8px;
+    }
+    .info-block p {
+      margin-bottom: 10px;
+    }
+
+    /* Стили для списка стека */
+    .stack-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .stack-item {
+      background: #eee;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    /* Ссылка на резюме */
+    .resume-link a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .resume-link a:hover {
+      text-decoration: underline;
+    }
+
+    /* Адаптивность */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 20px;
+      }
+      header h2 {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Korolkov Stanislav</h1>
+      <h2>AQA Fullstack Engineer (Java)</h2>
+      <div class="position">Ищу удалённую работу, позиция P5</div>
+    </header>
+
+    <section class="info-block">
+      <h3>Опыт работы</h3>
+      <p>2 года</p>
+    </section>
+
+    <section class="info-block">
+      <h3>Стек</h3>
+      <div class="stack-list">
+        <div class="stack-item">Java</div>
+        <div class="stack-item">JUnit</div>
+        <div class="stack-item">Selenide</div>
+        <div class="stack-item">Selenium</div>
+        <div class="stack-item">Maven</div>
+        <div class="stack-item">Gradle</div>
+        <div class="stack-item">Allure Report</div>
+        <div class="stack-item">Rest Assured</div>
+      </div>
+    </section>
+
+    <section class="info-block">
+      <h3>Проект и вклад</h3>
+      <p>В одиночку развернул и поддерживал автоматизацию на проекте. Сократил время тестирования за счёт внедрения новых инструментов. Настроил CI/CD, писал тестовую документацию.</p>
+      <p>Вёл отдельный раздел в документации по автоматизации со статьями и заметками, что сократило время адаптации новичков. Менторил и помогал в onboarding.</p>
+    </section>
+
+    <section class="info-block">
+      <h3>Контакты</h3>
+      <p>Telegram: <a href="https://t.me/stasevich741" target="_blank">@stasevich741</a></p>
+      <p>Email: <a href="mailto:st45@mail.ru">st45@mail.ru</a></p>
+    </section>
+
+    <section class="info-block resume-link">
+      <h3>Полное резюме на HH</h3>
+      <p><a href="https://hh.ru/applicant/resumes/view?resume=1234567890abcdef" target="_blank">
+        https://hh.ru/applicant/resumes/view?resume=1234567890abcdef
+      </a></p>
+    </section>
+  </div>
+</body>
+</html>
